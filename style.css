@@ -1,0 +1,50 @@
+/* common fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat&family=Poppins:wght@400;500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 1300px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+/* top section */
+.top-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro{
+    width: 45%;
+}
+.title{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: bolder;
+    line-height: 1.3em;
+}
+.description{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 500;
+}
+.intro-img{
+    width: 40%;
+    padding: 20px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.intro-img img{
+    width: 85%;
+}
+.btn{
+    color: white;
+    font-size: 16px;
+    background-color: #E02C6D;
+    margin-top: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+}
