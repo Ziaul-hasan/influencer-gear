@@ -4,8 +4,41 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
-    width: 1300px;
-    max-width: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* header section */
+.nav-container{
+    max-width: 1300px;
+    margin: 10px auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.item{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3A3A3A;
+}
+
+/* main part */
+.container{
+    max-width: 1300px;
     margin: 40px auto;
 }
 
@@ -136,7 +169,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 20px 30px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 .conclude-img{
@@ -152,4 +186,38 @@ body{
     font-size: 36px;
     font-weight: bold;
     color: #000000;
+}
+.conclude-btn{
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+/* footer section */
+.foot{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 40px;
+}
+.footer-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.footer-description{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.social-icon{
+   font-size: 24px;
+   color: white;
+}
+.social-icon i{
+    margin: 10px;
 }
