@@ -35,6 +35,10 @@ body{
     font-weight: 400;
     color: #3A3A3A;
 }
+/* nav-manu for mobile device */
+.m-nav{
+    display: none;
+}
 
 /* main part */
 .container{
@@ -101,8 +105,7 @@ body{
 
 /* product-section */
 .product-sec{
-    width: 1200px;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
 }
@@ -167,7 +170,6 @@ body{
 /* Last section */
 .conclude{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
     margin-top: 40px;
@@ -185,6 +187,7 @@ body{
 .conclude-title{
     font-size: 36px;
     font-weight: bold;
+    line-height: 1.2em;
     color: #000000;
 }
 .conclude-btn{
@@ -220,4 +223,121 @@ body{
 }
 .social-icon i{
     margin: 10px;
+}
+
+/* responsive */
+
+/* for mobile device */
+@media only screen and (max-width:688px) {
+    .nav{
+        display: none;
+    }
+   
+    .top-sec{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .m-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .hamburger{
+        color: #1b1b1b;
+        font-size: 18px;
+    }
+    .m-title{
+        font-size: 18px;
+        font-weight: 700;
+        color: #3A3A3A;
+    }
+    .intro{
+        width: 100%;
+    }
+    .intro-img{
+        background-position: center;
+        width: 100%;
+    }   
+    .title {
+        color: #3A3A3A;
+        font-size: 36px;
+        font-weight: bolder;
+        line-height: 1.3em;
+    }
+    
+    .description {
+        color: #3A3A3A;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .partner{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 10px;
+        align-items: center;
+    }
+    .partner img{
+        width: 70%;
+    }
+    .sec-title{
+        font-size: 24px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .product-title{
+        font-size: 20px;
+    }
+    .product-price{
+        font-size: 20px;
+    }
+    .rating{
+        font-size: 12px;
+    }
+    .rating span{
+        font-size: 12px;
+    }
+    .property{
+        font-size: 12px;
+    }
+    .product-btn{
+        font-size: 14px;
+    }
+    .conclude{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .conclude-img{
+        width: 100%;
+    }
+    .conclusion{
+        width: 100%;
+    }
+    .conclude-img img{
+        width: 100%;
+    }
+    .conclude-title{
+        font-size: 24px;
+    }
+    .conclude-btn{
+        font-size: 14px;
+    }
+    .footer-title{
+        font-size: 20px;
+    }
+    .footer-description{
+        font-size: 12px;
+    }
+    .social-icon{
+        font-size: 20px;
+    }
+
 }
